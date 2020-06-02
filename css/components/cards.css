@@ -1,0 +1,17 @@
+.card{
+  width: 100%;
+  padding: 10px;
+}
+
+.card__title{
+  font-size: 1.5em;
+  margin-bottom: 24px;
+}
+
+.card__list{
+  margin-left: 40px;
+}
+
+.card__content{
+  margin: 5px 0px
+}
