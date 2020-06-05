@@ -30,20 +30,6 @@ h2{
   grid-column-gap: 5px;
 }
 
-@media screen and (max-width: 320px){
-  html{
-    font-size: 12px;
-  }
-
-  .container{
-    width: auto;
-  }
-
-  .main{
-    display: inline-block;
-  }
-}
-
 @media screen and (max-width: 768px){
   .container{
     width: auto;
@@ -57,5 +43,19 @@ h2{
   .card:nth-child(1){
     grid-row-start: 1;
     grid-row-end: 3;
+  }
+}
+
+@media screen and (max-width: 320px){
+  html{
+    font-size: 12px;
+  }
+
+  .container{
+    width: auto;
+  }
+
+  .main{
+    display: inline-block;
   }
 }
